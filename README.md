@@ -52,7 +52,7 @@ export interface Parser{
 
 4. Created Util to have the mapping of HTTP_CODES
 
-# API TEST CASES
+# Api test case
 
 covered all positive and negative test case scenario with different data
 
@@ -86,3 +86,9 @@ describe('v1 VIGNESH0000KB0009994567', () => {
 # Postman
 
 Attached postman collection inside the postman folder.
+
+# Screeshot for test report
+
+https://github.com/vigneshkb7/nodejs-typescript/blob/main/Screenshot%202020-10-15%20at%209.53.49%20AM.png
+
+https://github.com/vigneshkb7/nodejs-typescript/blob/main/Screenshot%202020-10-15%20at%209.54.26%20AM.png
