@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "virtusa",
+		"_postman_id": "f71553ca-ab02-b5ad-f2b7-ded2e6f43820",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "v2",
+			"request": {
+				"url": "http://localhost:3000/api/v2/parse",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"data\":\"JOHN0000MICHAEL0009994567\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "v1",
+			"request": {
+				"url": "http://localhost:3000/api/v1/parse",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"data\":\"VIGNESH0000KB0009994567\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
